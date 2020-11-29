@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body {
+    text-align: center;
+    margin-top: 50vh;
+    transform: translateY(-50%);
+    font-family: sans-serif;
+}
+.buttons{
+    margin-top: 40px;
+    padding: 7px 27px;
+    background-color: red;
+    border: none;
+    border-radius: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.name-input{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    margin-top: 20px;
+}
