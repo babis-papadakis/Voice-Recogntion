@@ -1,7 +1,7 @@
 const btn = document.querySelector(".talk-btn");
 const inputs = document.querySelector(".name-input");
 
-let names = ["Ο Μπαμπάς", "Η Βιολέτα", "Η Στέλλα", "Η Μαμά", "Ο Μπάμπης"];
+let names = ["Ο Γιώργος", "Ο Κώστας", "Η Μαρία", "Η Ιωάννα", "Ο Μπάμπης"];
 const speechRecognition = window.speechRecognition || window.webkitSpeechRecognition;
 const element1 = document.getElementById("FirstName").innerText;
 const element2 = document.getElementById("SecondName").innerText;
@@ -37,7 +37,7 @@ function readOutLoud(message){
     speech.rate = 0.2;
     speech.pitch =1;
     if(message.includes("Hello")){
-        speech.text = "Γεια σου μωρή πουτάνα "
+        speech.text = "Γεια σου "
     }
 
     window.speechSynthesis.speak(speech);
